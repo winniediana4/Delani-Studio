@@ -1,10 +1,7 @@
-.jumbotron{
-  background-image: url(IP3/assets/backgrounds/h_img.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: transparent;
-}
-h2{
-  text-align: center;
 
+#logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);center;
 }
