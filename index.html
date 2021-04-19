@@ -7,12 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{background:transparent; clear:left; font:14px Helvetica,Arial,sans-serif; }
-	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+  <style type="text/css">
+    #mc_embed_signup {
+      background: transparent;
+      clear: left;
+      font: 14px Helvetica, Arial, sans-serif;
+    }
+
+    /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<link rel="stylesheet" href="css/styles.css" type="text/css">
+  </style>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
   <title>Delani Studio</title>
 </head>
 
@@ -43,7 +48,7 @@
     <div class="services">
       <div class="card text-white">
         <img src="IP3/assets/backgrounds/s_image.jpg" alt="">
-        <div class="card-img-overlay" id="des">
+        <div class="card-img-overlay">
           <h2>SERVICES</h2>
           <p>Before we sign a contract or write a line of code our team will spend necessary time needed to understand
             your product vision.</p>
@@ -52,32 +57,32 @@
         </div>
       </div>
     </div>
-    <div class="list text-center" id="responsive">
+    <div class="list text-center" id="responsives">
       <h2>WHAT WE DO</h2>
       <div class="row row-cols-1 row-cols-sm-3">
         <div class="col sm-4">
-          <img src="IP3/assets/services_icons/design_icon.png" alt="design">
+          <img src="IP3/assets/services_icons/design_icon.png" alt="design" id="design">
           <h5>DESIGN</h5>
-          <p class="text">Our design practice offers a full range of services including brand strategy, interaction and
+          <p class="design">Our design practice offers a full range of services including brand strategy, interaction
+            and
             visual design and user experience testing.
             Throughout your project, our designers create and implement visual design and workflows, solicit user
             feedback and work with you to make sure what gets built is what is needed.
           </p>
         </div>
         <div class="col mb-4">
-          <img src="IP3/assets/services_icons/dev_icon.png" alt="developement">
-          <div class="card-body">
-            <h5>DEVELOPMENT</h5>
-            <p class="text">All engineers are fluent in the latest enterprise, mobile and web development technologies.
-              They collaborate with your team to write, and improve code on a daily basis, using proven practices such
-              as test-driven development and pair programming.
-            </p>
-          </div>
+          <img src="IP3/assets/services_icons/dev_icon.png" alt="development" id="development">
+          <h5>DEVELOPMENT</h5>
+          <p class="development">All engineers are fluent in the latest enterprise, mobile and web development
+            technologies.
+            They collaborate with your team to write, and improve code on a daily basis, using proven practices such
+            as test-driven development and pair programming.
+          </p>
         </div>
         <div class="col mb-4">
-          <img src="IP3/assets/services_icons/product_icon.png" alt="product">
+          <img src="IP3/assets/services_icons/product_icon.png" alt="product" id="product">
           <h5>PRODUCT MANAGEMENT</h5>
-          <p class="text">Planning and development is iterative. Because we are constantly coding and testing, the
+          <p class="product">Planning and development is iterative. Because we are constantly coding and testing, the
             products we build are always ready to go live.
             This iterative process allows for changes as business requirements evolve.</p>
         </div>
@@ -87,30 +92,54 @@
       <h2>PORTFOLIO</h2>
       <div class="row">
         <div class="col-sm-3">
-          <img src="IP3/assets/portfolio/work4.jpg" alt="">
+          <img src="IP3/assets/portfolio/work4.jpg" alt="dark studio" id="work4" class="image">
+          <div class="text" id="overlay4">
+            DARK STUDIO
+          </div>
         </div>
         <div class="col-sm-3">
-          <img src="IP3/assets/portfolio/work3.jpg" alt="">
+          <img src="IP3/assets/portfolio/work3.jpg" alt="ontario" id="work3" class="image">
+          <div class="text" id="overlay3">
+            ONTARIO
+          </div>
         </div>
         <div class="col-sm-3">
-          <img src="IP3/assets/portfolio/work2.jpg" alt="">
+          <img src="IP3/assets/portfolio/work2.jpg" alt="diamond" id="work2" class="image">
+          <div class="text" id="overlay2">
+            DIAMOND
+          </div>
         </div>
         <div class="col-sm-3">
-          <img src="IP3/assets/portfolio/work1.jpg" alt="">
+          <img src="IP3/assets/portfolio/work1.jpg" alt="jim carrey" id="work1" class="image">
+          <div class="text" id="overlay1">
+            JIM CARREY
+          </div>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-3">
-          <img src="IP3/assets/portfolio/work5.jpg" alt="">
+          <img src="IP3/assets/portfolio/work5.jpg" alt="good day" id="work5" class="image">
+          <div class="text" id="overlay5">
+            GOOD DAY
+          </div>
         </div>
         <div class="col-sm-3">
-          <img src="IP3/assets/portfolio/work6.jpg" alt="">
+          <img src="IP3/assets/portfolio/work6.jpg" alt="button" id="work6" class="image">
+          <div class="text" id="overlay6">
+            BUTTON
+          </div>
         </div>
         <div class="col-sm-3">
-          <img src="IP3/assets/portfolio/work7.jpg" alt="">
+          <img src="IP3/assets/portfolio/work7.jpg" alt="burned" id="work7" class="image">
+          <div class="text" id="overlay7">
+            BURNED
+          </div>
         </div>
         <div class="col-sm-3">
-          <img src="IP3/assets/portfolio/work8.jpg" alt="">
+          <img src="IP3/assets/portfolio/work8.jpg" alt="giraffe" id="work8" class="image">
+          <div class="text" id="overlay8">
+            GIRAFFE
+          </div>
         </div>
       </div>
     </div>
@@ -120,54 +149,82 @@
         <div class="card-img-overlay" id="contact">
           <h3>CONTACT US</h3>
           <!-- Begin Mailchimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="https://moringaschool.us1.list-manage.com/subscribe/post?u=c84f162a5d9000346aad640a1&amp;id=b134f1be67" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	<h2>Subscribe</h2>
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-<div class="mc-field-group">
-	<label for="mce-NAME">Name...  <span class="asterisk">*</span>
-</label>
-	<input type="text" value="" name="NAME" class="required" id="mce-NAME">
-</div>
-<div class="mc-field-group">
-	<label for="mce-EMAIL">Email...  <span class="asterisk">*</span>
-</label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-<div class="mc-field-group">
-	<label for="mce-MESSAGE">Your message here...  <span class="asterisk">*</span>
-</label>
-	<input type="text" value="" name="MESSAGE" class="required" id="mce-MESSAGE">
-</div>
-	<div id="mce-responses" class="clear">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c84f162a5d9000346aad640a1_b134f1be67" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-</form>
-</div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='NAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='MESSAGE';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-<!--End mc_embed_signup-->
+          <div id="mc_embed_signup">
+            <form
+              action="https://moringaschool.us1.list-manage.com/subscribe/post?u=c84f162a5d9000346aad640a1&amp;id=b134f1be67"
+              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+              target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+                <h2>Subscribe</h2>
+                <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                <div class="col-25">
+                  <label for="mce-NAME"><span class="asterisk">*</span>
+                  </label>
+                  <input type="text" value="" name="NAME" class="required" id="name" style="background: none;"
+                    placeholder="Name...">
+                </div>
+                <div class="col-25">
+                  <label for="mce-EMAIL"><span class="asterisk">*</span>
+                  </label>
+                  <input type="email" value="" name="EMAIL" class="required email" id="email" style="background: none;"
+                    placeholder="Email..">
+                </div>
+                <div class="row">
+                  <div class="col-75">
+                    <label for="mce-MESSAGE"><span class="asterisk">*</span>
+                    </label>
+                    <input type="textarea" value="" name="MESSAGE" class="required" id="message"
+                      style="background: none;" placeholder="Your message here...">
+                  </div>
+                </div>
+                <!-- <div style="position: absolute; left: -500px;" aria-hidden="true"><input type="text"
+                    name="b_c84f162a5d9000346aad640a1_b134f1be67" tabindex="-1" value=""></div> -->
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="subscribe">
+                </div>
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+            </form>
+          </div>
+          <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+          <script type='text/javascript'>
+            (function ($) {
+              window.fnames = new Array();
+              window.ftypes = new Array();
+              fnames[1] = 'NAME';
+              ftypes[1] = 'text';
+              fnames[0] = 'EMAIL';
+              ftypes[0] = 'email';
+              fnames[2] = 'MESSAGE';
+              ftypes[2] = 'text';
+            }(jQuery));
+            var $mcj = jQuery.noConflict(true);
+          </script>
+          <!--End mc_embed_signup-->
         </div>
       </div>
     </div>
-    <div id="socials">
-      <a href="#"><img src="IP3/assets/social_icons/twitter.png" alt=""></a>
-      <a href="#"><img src="IP3/assets/social_icons/dribble.png" alt=""></a>
-      <a href="#"><img src="IP3/assets/social_icons/facebook.png" alt=""></a>
-      <a href="#"><img src="IP3/assets/social_icons/g_plus.png" alt=""></a>
-      <a href="#"><img src="IP3/assets/social_icons/skype.png" alt=""></a>
-      <a href="#"><img src="IP3/assets/social_icons/stumble_upon.png" alt=""></a>
-      <a href="#"><img src="IP3/assets/social_icons/behance.png" alt=""></a>
-      <a href="#"><img src="IP3/assets/social_icons/pinterest.png" alt=""></a>
-      <a href="#"><img src="IP3/assets/social_icons/flickr.png" alt=""></a>
-    </div>
-    <h5>DELANI STUDIO</h5>
-    <P>2021</P>
+    <footer>
+      <div id="media">
+        <a><img src="IP3/assets/social_icons/twitter.png" alt="twitter"></a>
+        <a><img src="IP3/assets/social_icons/dribble.png" alt="dribble"></a>
+        <a><img src="IP3/assets/social_icons/facebook.png" alt="facebook"></a>
+        <a><img src="IP3/assets/social_icons/g_plus.png" alt="g_plus"></a>
+        <a><img src="IP3/assets/social_icons/skype.png" alt="skype"></a>
+        <a><img src="IP3/assets/social_icons/stumble_upon.png" alt="stumble"></a>
+        <a><img src="IP3/assets/social_icons/behance.png" alt="behance"></a>
+        <a><img src="IP3/assets/social_icons/pinterest.png" alt="pinterest"></a>
+        <a><img src="IP3/assets/social_icons/flickr.png" alt="flickr"></a>
+      </div>
+      <h5>DELANI STUDIO</h5>
+      <P>2021</P>
   </div>
+  </footer>
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
