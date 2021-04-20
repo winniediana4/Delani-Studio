@@ -17,12 +17,12 @@ To access this project on your local files, you can clone it using these steps
 View [live](https://winniediana4.github.io/Delani-Studio/) 
 ## Known Bug
 {No known bugs.}
-# Project screenshot
-![alt Akan-Names](images/akan.png)
+
 ## Technologies Used
 1. HTML
 1. CSS
 1. JS
+1. JQuery
 ## Support and contact details
 For inquiries, comments or contributions, you can reach me at winnie.anyango@student.moringaschool.com
 ### License
