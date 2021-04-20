@@ -1,5 +1,5 @@
 # Delani-Studio
-#### Recreated Lsnding Page {20/04/2021}
+#### Recreated Landing Page {20/04/2021}
 #### Author
 Winnie Diana Anyango
 ## Description
