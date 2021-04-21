@@ -67,21 +67,18 @@ h1.des {
 }
 
 ::placeholder {
-  color: white;
+  color: rgb(228, 222, 222);
 }
 
 #name {
-  margin-right: 600px;
-  margin-top: 40px;
   width: 500px;
   height: 30px;
 }
 
 #email {
-  margin-left: 410px;
   width: 500px;
   height: 30px;
-}
+} 
 
 #message {
   width: 850px;
@@ -90,19 +87,29 @@ h1.des {
 }
 
 .col-75 {
-  display: flex;
-  flex-direction: initial;
   position: absolute;
   left: 32px;
 }
 
 #subscribe {
   background: none;
-  color: white;
+  color: rgb(245, 240, 240);
   margin: 137px;
   margin-left: 10%;
 }
 
 footer {
   margin: 10px;
+}
+
+@media screen and (max-width: 480px){
+  body {
+    background-color: black;
+    color: white;
+}
+.column {
+  width: 220px;
+  float: left;
+  padding: 15px;
+}
 }
